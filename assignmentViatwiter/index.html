@@ -12,15 +12,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- bg-gradient-to-tr from-gray-900 via-black to-gray-900 -->
-
-<body class=" text-white relative bg-black overflow-x-hidden">
+<body class=" text-white relative bg-black overflow-x-hidden max-w-screen">
     <!-- navbar -->
     <div
         class="h-32 w-56 top-2  rounded-full absolute bg-gradient-to-br  from-yellow-400 via-yellow-500  to-transparent blur-3xl opacity-[0.4] ">
     </div>
     <header>
-        <nav class=" nav flex items-center justify-between px-24 p-4">
+        <nav class=" nav flex items-center justify-between px-24 p-4 ">
             <div class="flex items-center justify-between px-2 s w-4/5">
 
                 <a class="flex items-center justify-center text-yellow-400 gap-4" href="/"><i
@@ -39,7 +37,7 @@
 
     <!-- hero -->
 
-    <div class="flex items-center justify-between px-24 mt-12 relative  ">
+    <div class="flex items-center justify-between px-24 mt-12 relative h-[55vw] overflow-x-hidden ">
         <!-- text with button -->
         <i class="fa-solid fa-star absolute left-48 top-0"></i>
 
@@ -75,20 +73,21 @@
     </div>
 
     <!-- some more context -->
-    <div class=" px-24 mt-24 relative ">
+    <div class=" px-24   relative ">
         <!-- the blurred cloud -->
         <div
             class="h-32 w-96 top-24 left-56  rounded-full absolute bg-gradient-to-br  from-yellow-200 via-yellow-300  to-transparent blur-3xl opacity-[0.2] ">
         </div>
-        <h2 class="font-semibold pl-14 text-2xl">Why<span class="bg-clip-text text-transparent bg-yellow-600">
-                MoonEx</span>?</h2>
+        
         <!-- table container -->
-        <div class="flex items-center justify-center  relative  ">
-
+        <div class="flex items-center justify-center    ">
+            
 
             <!--  first container -->
             <div
-                class="flex flex-col items-center justify-between pl-2 w-[34vw] border border-gray-800 rounded-tl-lg rounded-bl-lg">
+                class="flex flex-col items-center justify-between pl-2 w-[34vw] border border-gray-800 rounded-tl-lg rounded-bl-lg relative">
+                <h2 class="absolute  font-semibold pl-14 mt-16 text-2xl bottom-60 left-2">Why<span class="bg-clip-text text-transparent bg-yellow-600">
+                    MoonEx</span>?</h2>
                 <span class="text-yellow-400 font-semibold m-2">Comparison</span>
                 <span class="border-b border-gray-800 w-full m-2 ">1.Lorem, ipsum dolor.</span>
                 <span class="border-b border-gray-800 w-full m-2">2.Lorem, ipsum dolor.</span>
@@ -136,7 +135,7 @@
         </div>
     </div>
     <!-- features -->
-    <div class="features flex items-center justify-between px-6 lg:px-24 py-4 mt-24 flex-col">
+    <div class="features flex items-center justify-between px-6 lg:px-24 py-4 flex-col mt-12">
         <!-- text heading -->
         <div>
             <h3 class="font-bold text-2xl mb-4">Our <span class="bg-clip-text text-transparent bg-yellow-600">Features</span></h3>
@@ -212,7 +211,7 @@
     
     <!-- FAQs -->
 
-    <div class="text-center mt-24 mb-10 bg-white/10 backdrop-blur-md shadow-lg w-[55vw] m-auto p-4">
+    <div class="text-center mt-24 mb-10 bg-white/10 backdrop-blur-md shadow-lg w-[55vw] m-auto mt-24 p-4">
         <h3 class="text-2xl font-bold text-yellow-600">FAQs</h3>
 
         <!-- First FAQ -->
